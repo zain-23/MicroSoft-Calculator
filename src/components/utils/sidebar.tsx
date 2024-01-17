@@ -6,26 +6,8 @@ export const Sidebar = ({ sidebarOpen }: any) => {
       }`}
     >
       <div className="fixed top-0 left-0 w-full h-12 border"></div>
-      <div className="border w-full h-[74%] overflow-y-auto">
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
-          Setting
-        </div>
-        <div className="px-2 py-4 hover:bg-[var(--hover-color)] rounded-md">
+      <div className="border w-full h-[74%]">
+        <div className="px-3 py-3 hover:bg-[var(--hover-color)] rounded-md">
           Setting
         </div>
       </div>
