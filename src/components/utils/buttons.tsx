@@ -6,7 +6,7 @@ interface Props {
 
 export const Button = ({ children }: Props) => {
   return (
-    <div className="h-20 border flex justify-center items-center">
+    <div className="h-[52px] flex justify-center items-center bg-[var(--button-color)] rounded-md hover:bg-[var(--hover-color)]">
       {children}
     </div>
   );

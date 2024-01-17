@@ -3,15 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #202020;
+  --button-color: #323232;
+  --hover-color: #3b3b3b;
+  --sidebar-color: #2d2d2d;
 }
 * {
   margin: 0;
   padding: 0;
-  background-color: rgb(39, 36, 36);
   color: white;
+  font-family: cursive;
 }
 body {
   height: 100vh;
